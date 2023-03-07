@@ -81,7 +81,7 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
    **python manage.py migrate**
    **python manage.py createsuperuser**
 
-7. Ejecutar las aplicación Django
+7. Ejecutar la aplicación Django
    Una vez completada la configuración, puede ejecutar su aplicación Django. Esto se puede hacer ejecutando el siguiente comando en la línea de comandos de Ubuntu:
 
    **python manage.py runserver**
