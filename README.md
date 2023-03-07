@@ -3,7 +3,15 @@
 # Introduccion
 Django es un framework de código abierto para el desarrollo de aplicaciones web en el lenguaje de programación **Python**. Proporciona herramientas para el desarrollo de aplicaciones web seguras, estables y escalables. Está diseñado para permitir un **desarrollo ágil** y para facilitar la creación de aplicaciones web complejas con una **cantidad mínima de código**.
 
-Django se basa en el patrón de arquitectura **Modelo-Vista-Controlador (MVC)**, y ofrece una serie de características especiales, como una interfaz de administración para gestionar los datos de la aplicación, un sistema de plantillas para mejorar la presentación de datos en la aplicación, un sistema de autenticación para gestionar usuarios y contraseñas, así como un sistema de control de acceso a la información para controlar qué usuarios pueden acceder a qué datos.
+Django se basa en el patrón de arquitectura **Modelo-Vista-Controlador (MVC)**, es un patrón de diseño de software ampliamente utilizado en el desarrollo de aplicaciones web. Está compuesto por tres componentes principales: 
+
+Modelo: El modelo es responsable de administrar los datos de la aplicación. Se encarga de acceder a los datos almacenados en la base de datos y presentarlos en un formato adecuado para su uso por parte de la aplicación. 
+
+Vista: La vista es responsable de mostrar los datos al usuario. Esto incluye el diseño de la interfaz de usuario, así como la lógica necesaria para presentar los datos al usuario. 
+
+Controlador: El controlador es responsable de manejar las solicitudes del usuario. Esto incluye la lógica que se ejecuta cuando el usuario interactúa con la aplicación. Esto también incluye el procesamiento de los datos enviados por el usuario y la comunicación con el modelo para recuperar los datos necesarios. 
+
+Django utiliza el patrón MVC para construir sus aplicaciones. Esto significa que los desarrolladores deben dividir su código en los tres componentes principales del patrón. Esto les permite separar la lógica de presentación de la lógica de la aplicación y hacer que el código sea más fácil de mantener. Django ofrece una serie de características especiales, como una interfaz de administración para gestionar los datos de la aplicación, un sistema de plantillas para mejorar la presentación de datos en la aplicación, un sistema de autenticación para gestionar usuarios y contraseñas, así como un sistema de control de acceso a la información para controlar qué usuarios pueden acceder a qué datos.
 
 ### Ventajas
 
@@ -62,14 +70,18 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
    
    **django-admin startproject nombre_de_la_aplicación**
 
+   Django startapp es una herramienta de la línea de comandos de Django que se usa para crear una nueva aplicación de Django. Esta herramienta genera una estructura de directorios y archivos predeterminada para una aplicación de Django, que le permite comenzar a desarrollar rápidamente. Esta estructura incluye archivos como models.py, views.py, urls.py y forms.py, entre otros. Estos archivos definen la lógica de la aplicación de Django y ayudan a los desarrolladores a ahorrar tiempo y esfuerzo al comenzar un nuevo proyecto.
+
+   **python manage.py startapp nombre_de_la_app**
+
 6. Configurar la aplicación Django
    Una vez creada la aplicación Django, necesita configurarla para que funcione correctamente. Esto se puede hacer ejecutando los siguientes comandos en la línea de comandos de Ubuntu:
 
-   **python manage.py makemigrations**
+   **python manage.py makemigrations nombre_proyecto**
    **python manage.py migrate**
    **python manage.py createsuperuser**
 
-7. Ejecutar la aplicación Django
+7. Ejecutar las aplicación Django
    Una vez completada la configuración, puede ejecutar su aplicación Django. Esto se puede hacer ejecutando el siguiente comando en la línea de comandos de Ubuntu:
 
    **python manage.py runserver**
