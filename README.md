@@ -86,4 +86,3 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
 
    **python manage.py runserver**
 
-   
