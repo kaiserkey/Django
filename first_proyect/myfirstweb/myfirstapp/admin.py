@@ -15,4 +15,4 @@ class PostAdmin(admin.ModelAdmin):
 
 
 # Register your models here.
-admin.site.register(Post)
+admin.site.register(Post, PostAdmin)
