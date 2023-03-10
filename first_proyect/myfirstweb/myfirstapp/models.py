@@ -20,4 +20,4 @@ class Post(models.Model):
         return self.title
     
     class Meta:
-        ordering = ('-published_date',)
+        ordering = ('-publish',)
