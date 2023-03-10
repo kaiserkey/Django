@@ -11,7 +11,7 @@ class Post(models.Model):
     sulug = models.SlugField(max_length=100,unique_for_date='publish', unique=True, help_text=("A label for URL config."))
     content = models.TextField()
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts')
-    published_date = models.DateTimeField(default=timezone.now)
+    publish = models.DateTimeField(default=timezone.now)
     created_date = models.DateTimeField(auto_now_add=True)
     update = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=10, choices=STATUS, default='draft')
