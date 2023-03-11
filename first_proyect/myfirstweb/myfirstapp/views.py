@@ -9,7 +9,8 @@ def home(request):
                         'message': 'Hello World'
                     })
 def posts(request):
-    return render(request, 'post/index.html',
+    return render(request, 'post/post_list.html',
                     {
                         'posts': Post.objects.all()
                     })
+    
