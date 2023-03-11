@@ -152,4 +152,5 @@ Esto abrirá una ventana de la Herramienta de administración de bases de datos 
 
 **python3.10 manage.py shell**<br>
 
-Este comando ejecuta un intérprete de Python interactivo en un entorno de shell. Esto permite la ejecución de comandos de Python directamente en una línea de comandos, lo que es útil para la depuración, el desarrollo y el análisis de pequeños scripts. Es una herramienta útil para los desarrolladores de Django, ya que les permite interactuar con el código de Django y ejecutar cualquier comando de Django para realizar tareas específicas.
+El shell de Django se usa para realizar operaciones interactivas en la línea de comandos con el fin de probar y depurar código, interaccionar con el ORM de Django, ejecutar scripts, y ejecutar consultas directamente a la base de datos. Esto facilita la tarea de los desarrolladores cuando trabajan con Django, ya que pueden interactuar con el marco de forma directa desde la línea de comandos.
+
