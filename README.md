@@ -156,8 +156,6 @@ El shell de Django se usa para realizar operaciones interactivas en la línea de
 
 Los QuerySets de Django son una colección de objetos de modelo que se pueden recuperar de la base de datos. Se usan para buscar, filtrar, modificar y eliminar registros de la base de datos. Los QuerySets se pueden encadenar para aplicar filtros y transformaciones a los datos recuperados. Esto permite una gran flexibilidad para recuperar y manipular datos desde la base de datos.
 
-como se usan los queryset de django
-
 Los QuerySets de Django se pueden usar para recuperar objetos de modelo desde la base de datos. Esto se hace mediante la API de consultas del modelo. Por ejemplo, si desea recuperar todos los usuarios de la base de datos, puede usar el siguiente código:
 
 users = User.objects.all()
