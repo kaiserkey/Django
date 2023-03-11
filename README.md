@@ -77,8 +77,8 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
 6. Configurar la aplicación Django
    Una vez creada la aplicación Django, necesita configurarla para que funcione correctamente. Esto se puede hacer ejecutando los siguientes comandos en la línea de comandos de Ubuntu:
 
-   **python manage.py makemigrations nombre_proyecto**
-   **python manage.py migrate**
+   **python manage.py makemigrations nombre_proyecto**<br>
+   **python manage.py migrate**<br>
    **python manage.py createsuperuser**
 
 7. Ejecutar la aplicación Django
