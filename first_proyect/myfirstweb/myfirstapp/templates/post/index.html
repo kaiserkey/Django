@@ -12,8 +12,9 @@
         <h1>{{message}}</h1>
         <p>
             {
-                for post in posts:
-                    print(post)
+                {% for item in items %}
+                    <li>{{item}}</li>
+                {% endfor %}
             }
         </p>
     </body>
