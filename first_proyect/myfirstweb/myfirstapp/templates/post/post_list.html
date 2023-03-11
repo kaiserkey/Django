@@ -13,3 +13,17 @@
     </ul>
 {% endblock %}
 
+{% block content %}
+    <ul>
+    
+        {% for post in posts %}
+        <li>
+            {{post.title}},
+            {{post.author}},
+            {{post.publish}}
+        </li>
+        {% endfor %}
+
+    </ul>
+{% endblock %}
+
