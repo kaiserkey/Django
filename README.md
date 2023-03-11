@@ -147,3 +147,5 @@ Esto abrirá una ventana de la Herramienta de administración de bases de datos 
 * **templates/:** Directorio que contiene las plantillas HTML de la aplicación.
 
 * **requirements.txt:** Archivo que contiene una lista de las dependencias del proyecto.
+
+### tras He
