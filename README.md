@@ -93,7 +93,14 @@ El admin de Django es una herramienta de administración de contenido que propor
 Django ORM es un sistema de mapeo de objetos relacional de Django que proporciona una interfaz de alto nivel para interactuar con la base de datos. Se basa en SQLAlchemy y proporciona una solución de alto nivel para gestionar y consultar bases de datos. El ORM de Django proporciona una forma sencilla y eficiente de realizar operaciones CRUD (crear, leer, actualizar y eliminar) en la base de datos. Esto ayuda a los desarrolladores a ahorrar tiempo y esfuerzo al escribir código SQL complejo. El ORM también le permite crear consultas y relaciones entre tablas, lo que hace que la manipulación de datos sea más fácil y eficiente.
 
 
-### Administracion de Bases de
+### Administracion de Bases de Datos
+Django proporciona su propia herramienta de administración de bases de datos, llamada la Herramienta de administración de bases de datos de Django (Django Database Administration Tool, o DAT). Esta herramienta se incluye con Django y es la herramienta recomendada para administrar la base de datos de tu proyecto Django. Está diseñada para ser fácil de usar y proporciona una interfaz gráfica para la gestión de las bases de datos. Esta herramienta tiene muchas funciones útiles, como la ejecución de consultas SQL, la creación de tablas de la base de datos y la gestión de usuarios de la base de datos.
+
+Puedes acceder a la Herramienta de administración de bases de datos de Django (DAT) desde la línea de comando. Si estás usando la versión estándar de Django, puedes ejecutar el comando:
+
+python manage.py dbshell
+
+Esto abrirá una ventana de la Herramienta de administración de bases de datos de Django. Desde aquí, puedes ejecutar comandos SQL y administrar tu base de datos.
 
 
 ### La estructura de Carpetas Django
