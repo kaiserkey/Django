@@ -211,4 +211,3 @@ Los queryset mas usados de django son:
 * first(): Devuelve el primer objeto de la consulta.
 * last(): Devuelve el último objeto de la consulta.
 * exists(): Devuelve si hay o no objetos en la consulta.
-  
