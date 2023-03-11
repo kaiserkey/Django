@@ -9,4 +9,7 @@ def home(request):
                         'message': 'Hello World'
                     })
 def posts(request):
-    
+    return render(request, 'post/posts.html',
+                    {
+                        'posts': Post.objects.all()
+                    })
