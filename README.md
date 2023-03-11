@@ -154,3 +154,27 @@ Esto abrirá una ventana de la Herramienta de administración de bases de datos 
 
 El shell de Django se usa para realizar operaciones interactivas en la línea de comandos con el fin de probar y depurar código, interaccionar con el ORM de Django, ejecutar scripts, y ejecutar consultas directamente a la base de datos. Esto facilita la tarea de los desarrolladores cuando trabajan con Django, ya que pueden interactuar con el marco de forma directa desde la línea de comandos.
 
+Los QuerySets de Django son una colección de objetos de modelo que se pueden recuperar de la base de datos. Se usan para buscar, filtrar, modificar y eliminar registros de la base de datos. Los QuerySets se pueden encadenar para aplicar filtros y transformaciones a los datos recuperados. Esto permite una gran flexibilidad para recuperar y manipular datos desde la base de datos.
+
+como se usan los queryset de django
+
+Los QuerySets de Django se pueden usar para recuperar objetos de modelo desde la base de datos. Esto se hace mediante la API de consultas del modelo. Por ejemplo, si desea recuperar todos los usuarios de la base de datos, puede usar el siguiente código:
+
+users = User.objects.all()
+
+Esto devuelve un QuerySet de objetos User que contiene todos los usuarios en la base de datos. Los QuerySets se pueden encadenar para aplicar filtros y transformaciones a los datos recuperados. Por ejemplo, para recuperar sólo los usuarios con un campo de edad específico:
+
+young_users = User.objects.filter(age=18)
+
+También se pueden usar para crear, actualizar y eliminar registros en la base de datos. Por ejemplo, para crear un nuevo usuario:
+
+new_user = User.objects.create(name="John Doe")
+
+Para actualizar un usuario existente:
+
+User.objects.filter(name="John Doe").update(age=20)
+
+Y para eliminar un usuario:
+
+User.objects.filter(name="John Doe").delete()
+
