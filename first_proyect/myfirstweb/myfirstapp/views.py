@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from myfirstapp
+from myfirstapp.models import Post
 
 # Create your views here.
 def home(request):
     return render(request, 'post/index.html',
-                    {'title': 'Home', 'content': 'Welcome to the home page!'})
+                    {'title': Post.title(), 'content': 'Welcome to the home page!'})
