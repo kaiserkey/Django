@@ -86,7 +86,8 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
 
    **python manage.py runserver**
 
-### EL Administrad
+### EL Administrador de Contenido
+El admin de Django es una herramienta de administración de contenido que proporciona una interfaz de usuario web para administrar aplicaciones, bases de datos y contenidos. El admin de Django le permite al usuario realizar tareas tales como crear y modificar objetos, administrar usuarios, trabajar con contenido multimedia, gestionar datos, etc. El admin de Django es una de las características más populares de la plataforma y le permite a los usuarios administrar y controlar contenidos web de una manera mucho más eficiente.
 
 ### El ORM de Django
 Django ORM es un sistema de mapeo de objetos relacional de Django que proporciona una interfaz de alto nivel para interactuar con la base de datos. Se basa en SQLAlchemy y proporciona una solución de alto nivel para gestionar y consultar bases de datos. El ORM de Django proporciona una forma sencilla y eficiente de realizar operaciones CRUD (crear, leer, actualizar y eliminar) en la base de datos. Esto ayuda a los desarrolladores a ahorrar tiempo y esfuerzo al escribir código SQL complejo. El ORM también le permite crear consultas y relaciones entre tablas, lo que hace que la manipulación de datos sea más fácil y eficiente.
