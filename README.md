@@ -92,4 +92,29 @@ El admin de Django es una herramienta de administración de contenido que propor
 ### El ORM de Django
 Django ORM es un sistema de mapeo de objetos relacional de Django que proporciona una interfaz de alto nivel para interactuar con la base de datos. Se basa en SQLAlchemy y proporciona una solución de alto nivel para gestionar y consultar bases de datos. El ORM de Django proporciona una forma sencilla y eficiente de realizar operaciones CRUD (crear, leer, actualizar y eliminar) en la base de datos. Esto ayuda a los desarrolladores a ahorrar tiempo y esfuerzo al escribir código SQL complejo. El ORM también le permite crear consultas y relaciones entre tablas, lo que hace que la manipulación de datos sea más fácil y eficiente.
 
-### La estruc
+### La estructura de Carpetas Django
+
+```
+<nombre_proyecto>/
+    manage.py
+    <nombre_proyecto>/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+    apps/
+        <nombre_app_1>/
+            __init__.py
+            admin.py
+            apps.py
+            models.py
+            tests.py
+            views.py
+        <nombre_app_2>/
+            ...
+    static/
+        <static_root>
+    templates/
+        <plantillas_html>
+    requirements.txt
+```
