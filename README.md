@@ -118,3 +118,21 @@ Django ORM es un sistema de mapeo de objetos relacional de Django que proporcion
         <plantillas_html>
     requirements.txt
 ```
+
+* **manage.py:** Archivo que contiene código de Python para configurar el entorno de ejecución de la aplicación.
+
+* **nombre_proyecto/__init__.py:** Archivo vacío para marcar este directorio como un módulo de Python.
+
+* **nombre_proyecto/settings.py:** Archivo de configuración que contiene los parámetros para la ejecución de la aplicación.
+
+* **nombre_proyecto/urls.py:** Archivo de configuración de los patrones de URL de la aplicación.
+
+* **nombre_proyecto/wsgi.py:** Archivo que contiene información para el servidor web para el despliegue de la aplicación.
+
+* **apps/:** Directorio que contiene cada una de las apps de la aplicación.
+
+* **static/:** Directorio que contiene los archivos estáticos de la aplicación.
+
+* **templates/:** Directorio que contiene las plantillas HTML de la aplicación.
+
+* **requirements.txt:** Archivo que contiene una lista de las dependencias del proyecto.
