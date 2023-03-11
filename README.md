@@ -102,6 +102,9 @@ python manage.py dbshell
 
 Esto abrirá una ventana de la Herramienta de administración de bases de datos de Django. Desde aquí, puedes ejecutar comandos SQL y administrar tu base de datos.
 
+### Templates Django
+
+
 
 ### La estructura de Carpetas Django
 
