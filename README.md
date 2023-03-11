@@ -102,7 +102,7 @@ python manage.py dbshell
 
 Esto abrirá una ventana de la Herramienta de administración de bases de datos de Django. Desde aquí, puedes ejecutar comandos SQL y administrar tu base de datos.
 
-### Templates Django
+### Plantillas Django
 Django viene con una variedad de plantillas integradas para ayudar a los desarrolladores a crear aplicaciones web. Se pueden usar cualquiera de estas plantillas para crear aplicaciones web con rapidez. Las plantillas predefinidas de Django incluyen:
 
 • Plantilla de administrador: Esta plantilla se usa para crear una interfaz de administrador simple para administrar la aplicación.
