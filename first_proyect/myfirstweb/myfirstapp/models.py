@@ -1,9 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
-
+from 
 # Create your models here.
-@P
+@python_2_unicode_compatible
 class Post(models.Model):
     STATUS = (  ('draft','Draft'),
                 ('published','Published'))
