@@ -197,17 +197,17 @@ User.objects.filter(name="John Doe").delete()
 
 Los queryset mas usados de django son:
 
-•all(): Recupera todos los objetos del modelo.
-•filter(): Recupera un subconjunto de objetos del modelo basado en una consulta.
-•exclude(): Recupera un subconjunto de objetos del modelo excluyendo los que cumplan con ciertos criterios.
-•get(): Recupera un objeto único a partir de su ID.
-•order_by(): Ordena los resultados de la consulta según uno o más campos.
-•distinct(): Devuelve una lista de objetos únicos.
-•values(): Devuelve una lista de diccionarios con los valores de los campos especificados.
-•values_list(): Devuelve una lista de tuplas con los valores de los campos especificados.
-•annotate(): Agrega campos calculados a los resultados de la consulta.
-•aggregate(): Agrega resultados de funciones de agregación a una consulta.
-•count(): Devuelve el número de objetos en la consulta.
-•first(): Devuelve el primer objeto de la consulta.
-•last(): Devuelve el último objeto de la consulta.
-•exists(): Devuelve si hay o no objetos en la consulta.
+- all(): Recupera todos los objetos del modelo.
+- filter(): Recupera un subconjunto de objetos del modelo basado en una consulta.
+- exclude(): Recupera un subconjunto de objetos del modelo excluyendo los que cumplan con ciertos criterios.
+- get(): Recupera un objeto único a partir de su ID.
+- order_by(): Ordena los resultados de la consulta según uno o más campos.
+- distinct(): Devuelve una lista de objetos únicos.
+- values(): Devuelve una lista de diccionarios con los valores de los campos especificados.
+- values_list(): Devuelve una lista de tuplas con los valores de los campos especificados.
+- annotate(): Agrega campos calculados a los resultados de la consulta.
+- aggregate(): Agrega resultados de funciones de agregación a una consulta.
+- count(): Devuelve el número de objetos en la consulta.
+- first(): Devuelve el primer objeto de la consulta.
+- last(): Devuelve el último objeto de la consulta.
+- exists(): Devuelve si hay o no objetos en la consulta.
