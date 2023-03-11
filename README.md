@@ -121,6 +121,9 @@ Django viene con una variedad de plantillas integradas para ayudar a los desarro
 
 • Plantilla de error: Esta plantilla se usa para mostrar mensajes de error personalizados cuando una solicitud falla.
 
+### Templates Django
+
+
 
 ### La estructura de Carpetas Django
 
