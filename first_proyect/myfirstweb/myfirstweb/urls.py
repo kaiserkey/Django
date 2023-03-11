@@ -21,5 +21,5 @@ from myfirstweb.views import inicio
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('inicio/', inicio),
-    url(r'^', include('myfirstapp.urls')),
+    urls(r'^', include('myfirstapp.urls')),
 ]
