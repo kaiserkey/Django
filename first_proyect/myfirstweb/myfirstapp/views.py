@@ -8,4 +8,5 @@ def home(request):
                         'posts': Post.objects.count(),
                         'message': 'Hello World'
                     })
-def posts(reque)
+def posts(request):
+    
