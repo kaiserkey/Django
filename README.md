@@ -132,7 +132,7 @@ Los siguientes son algunos de los códigos de Python más comunes que se utiliza
 
 - {% include %}: Esta etiqueta se utiliza para incluir otro template en el template actual. Esto puede ser útil si se desea reutilizar código en varios templates. Por ejemplo, si se desea incluir una plantilla que contiene un encabezado en todas las páginas, se puede usar el siguiente código: {% include 'header.html' %} 
 
-- {% static %}: Esta etiqueta se utiliza para incluir archivos estáticos en un template. Por ejemplo, si se desea incluir una imagen, se puede usar el siguiente código: ¨]]]<img src="{% static 'image.jpg' %}" >
+- {% static %}: Esta etiqueta se utiliza para incluir archivos estáticos en un template. Por ejemplo, si se desea incluir una imagen, se puede usar el siguiente código: <img src="{% static 'image.jpg' %}" >
 
 - {% url %}: Esta etiqueta se utiliza para generar una URL a partir del nombre de una vista. Esto facilita mucho la navegación entre páginas. Por ejemplo, si se desea generar un enlace a una página de inicio, se puede usar el siguiente código: ```<a href="{% url 'home' %}"> Inicio </a>```
 
