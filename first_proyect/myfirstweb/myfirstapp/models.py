@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.utils import timezone
 from django.utils.encoding import python_2_unicode_compatible
 # Create your models here.
-@python_4_unicode_compatible
+@python_2_unicode_compatible
 class Post(models.Model):
     STATUS = (  ('draft','Draft'),
                 ('published','Published'))
