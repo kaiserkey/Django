@@ -25,7 +25,7 @@ Django utiliza el patrón MVC para construir sus aplicaciones. Esto significa qu
 
 5. Comunidad: Django tiene una gran comunidad de desarrolladores que pueden ayudar a responder preguntas y proporcionar consejos útiles. Además, hay una amplia variedad de recursos, tutoriales y documentación disponibles para ayudar a los desarrolladores a aprender Django.
 
-###Historia
+### Historia
 
 Django fue creado en el año 2003 por los programadores de Python **Adrian Holovaty** y **Simon Willison**, como una herramienta para ayudarles a desarrollar aplicaciones web. Holovaty y Willison habían trabajado juntos en el proyecto **World Online**, una red de sitios web conectados, y decidieron construir un marco de trabajo para acelerar el desarrollo de la red.
 
