@@ -122,7 +122,19 @@ Django viene con una variedad de plantillas integradas para ayudar a los desarro
 • Plantilla de error: Esta plantilla se usa para mostrar mensajes de error personalizados cuando una solicitud falla.
 
 ### Templates Django
+Los templates de Django son plantillas de código HTML que se utilizan para crear la interfaz de usuario de una aplicación web. Estas plantillas se pueden completar con lógica y datos proporcionados por el lenguaje de programación Python. Esto permite a los desarrolladores proporcionar una interfaz personalizada para cada usuario.
 
+Los siguientes son algunos de los códigos de Python más comunes que se utilizan en los templates de Django:
+
+- {% if %}: Este código se utiliza para evaluar una condición booleana y realizar una acción si la condición se cumple. Por ejemplo, si se desea mostrar un mensaje si un usuario está conectado, se puede usar el siguiente código: {% if user.is_authenticated %} Bienvenido, {{ user.username }}. {% endif %}
+
+- {% for %}: Esta etiqueta se utiliza para iterar sobre una lista o conjunto de datos. Por ejemplo, si se desea mostrar una lista de usuarios, se puede usar el siguiente código: {% for user in users %} <p>{{ user.name }}</p> {% endfor %}
+
+- {% include %}: Esta etiqueta se utiliza para incluir otro template en el template actual. Esto puede ser útil si se desea reutilizar código en varios templates. Por ejemplo, si se desea incluir una plantilla que contiene un encabezado en todas las páginas, se puede usar el siguiente código: {% include 'header.html' %} 
+
+- {% static %}: Esta etiqueta se utiliza para incluir archivos estáticos en un template. Por ejemplo, si se desea incluir una imagen, se puede usar el siguiente código: <img src="{% static 'image.jpg' %}" >
+
+- {% url %}: Esta etiqueta se utiliza para generar una URL a partir del nombre de una vista. Esto facilita mucho la navegación entre páginas. Por ejemplo, si se desea generar un enlace a una página de inicio, se puede usar el siguiente código: <a href="{% url 'home' %}"> Inicio </a>
 
 
 ### La estructura de Carpetas Django
