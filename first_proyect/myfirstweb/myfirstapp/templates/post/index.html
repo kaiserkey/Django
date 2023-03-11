@@ -12,9 +12,9 @@
         <h1>{{message}}</h1>
         <ul>
             {% for post in posts %}
-                <li>{{post.title}}</li>
-                <li>{{post.author}}</li>
-                <li>{{post.publish}}</li>
+                <li>{{post.title}}
+                {{post.author}}
+                {{post.publish}}</li>
             {% endfor %}
         </ul>
     </body>
