@@ -70,7 +70,7 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
    
    **django-admin startproject nombre_de_la_aplicación**
     **django-admin startproject nombre_de_la_aplicación .**
-    E
+    La segunda sintaxis 
 
    Django startapp es una herramienta de la línea de comandos de Django que se usa para crear una nueva aplicación de Django. Esta herramienta genera una estructura de directorios y archivos predeterminada para una aplicación de Django, que le permite comenzar a desarrollar rápidamente. Esta estructura incluye archivos como models.py, views.py, urls.py y forms.py, entre otros. Estos archivos definen la lógica de la aplicación de Django y ayudan a los desarrolladores a ahorrar tiempo y esfuerzo al comenzar un nuevo proyecto.
 
