@@ -14,8 +14,8 @@ def datos(request, username):
     return HttpResponse("<h1 style='color: red'>Usuario: " + username + "</h1>")
 
 def project(request):
-    pro
-    return HttpResponse("<h1 style='color: black'>Task</h1>")
+    projects = Project.objects.all()
+    return JsonResponse
 
 def task(request):
     return HttpResponse("<h1 style='color: black'>Project</h1>")
