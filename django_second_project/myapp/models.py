@@ -5,5 +5,6 @@ class Project(models.Model):
     name = models.CharField(max_length=100)
 
 class Task(models.Model):
-    name = models.CharField(max_length=100)
+    title = models.CharField(max_length=100)
+    description
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
