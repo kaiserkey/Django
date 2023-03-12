@@ -19,4 +19,4 @@ def project(request):
 
 def task(request, id):
     tasks = Task.objects.get(id=id)
-    return JsonResponse({"tasks": list(tasks.values())})
+    return JsonResponse({"tasks": tasks})
