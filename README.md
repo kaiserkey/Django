@@ -87,6 +87,8 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
    Una vez completada la configuración, puede ejecutar su aplicación Django. Esto se puede hacer ejecutando el siguiente comando en la línea de comandos de Ubuntu:
 
    **python manage.py runserver**
+   **python manage.py runserver 3000**
+   Elegir el puerto
 
 ### EL Administrador de Contenido
 El admin de Django es una herramienta de administración de contenido que proporciona una interfaz de usuario web para administrar aplicaciones, bases de datos y contenidos. El admin de Django le permite al usuario realizar tareas tales como crear y modificar objetos, administrar usuarios, trabajar con contenido multimedia, gestionar datos, etc. El admin de Django es una de las características más populares de la plataforma y le permite a los usuarios administrar y controlar contenidos web de una manera mucho más eficiente.
