@@ -18,4 +18,5 @@ def project(request):
     return JsonResponse({"projects": list(projects.values())})
 
 def task(request):
-    return HttpResponse("<h1 style='color: black'>Project</h1>")
+    tasks = Task.objects.all()
+    return 
