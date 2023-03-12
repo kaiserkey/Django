@@ -19,6 +19,6 @@ def project(request):
     return JsonResponse({"projects": list(projects.values())})
 
 def task(request, id):
-    tasks = Task.objects.get(id=id)
+    #tasks = Task.objects.get(id=id)
     tasks = get_object_or_404(Task, id=id)
     return JsonResponse({"tasks": tasks.title})
