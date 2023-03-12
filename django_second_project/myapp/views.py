@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-import .models
+from .models import Project, Task
 
 # Create your views here.
 def hello(request):
