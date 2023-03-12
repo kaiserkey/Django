@@ -1,3 +1,4 @@
 from django.contrib import admin
-from .models import 
+from .models import Project, Task
 # Register your models here.
+admin.si
