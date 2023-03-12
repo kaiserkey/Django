@@ -52,7 +52,7 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
 
 3. Crear un entorno virtual
    Después de instalar Django, necesita crear un entorno virtual para su proyecto. Esto se puede hacer ejecutando el siguiente comando en la línea de comandos de Ubuntu:
-    *****
+    **pi**
    **python3.10 -m venv nombre_del_entorno**
     
     Esto ayuda a aislar el proyecto y evitar conflictos entre bibliotecas y versiones.
