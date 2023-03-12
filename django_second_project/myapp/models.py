@@ -4,4 +4,6 @@ from django.db import models
 class Project(models.Model):
     name = models.CharField(max_length=100)
 
-class 
+class Task(models.Model):
+    name = models.CharField(max_length=100)
+    project = models.ForeignKey(Project, on_delete=models.CASCADE
