@@ -14,6 +14,7 @@ def datos(request, username):
     return HttpResponse("<h1 style='color: red'>Usuario: " + username + "</h1>")
 
 def project(request):
+    pro
     return HttpResponse("<h1 style='color: black'>Task</h1>")
 
 def task(request):
