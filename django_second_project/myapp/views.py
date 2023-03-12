@@ -5,5 +5,6 @@ from django.http import HttpResponse
 def hello(request):
     return HttpResponse("<h1 style='color: blue'>Hello World</h1>")
 
-def about(reque)
+def about(request):
+    return HttpResponse("<h1 style='color: green'>About</h1>")
 
