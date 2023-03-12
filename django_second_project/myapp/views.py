@@ -22,5 +22,5 @@ def task(request):
     return JsonResponse({"tasks": list(tasks.values())})
 
 def task(request, id):
-    tasks = Task.objects
+    tasks = Task.objects.get()
     return JsonResponse({"tasks": list(tasks.values())})
