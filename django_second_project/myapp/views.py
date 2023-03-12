@@ -17,10 +17,6 @@ def project(request):
     projects = Project.objects.all()
     return JsonResponse({"projects": list(projects.values())})
 
-def task(request):
-    tasks = Task.objects.all()
-    return JsonResponse({"tasks": list(tasks.values())})
-
 def task(request, id):
     tasks = Task.objects.get(id=id)
     return JsonResponse({"tasks": list(tasks.values())})
