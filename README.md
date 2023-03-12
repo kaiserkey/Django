@@ -46,7 +46,7 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
 
 2. Instalar Django
    Ahora, necesita instalar Django. Esto se puede hacer ejecutando el siguiente comando en la línea de comandos de Ubuntu:
-   **pip install django**
+   **pip install djdango**
    **django-admin --version**
    Version LTS:**pip install Django==3.2** 
 
