@@ -8,5 +8,6 @@ def hello(request):
 def about(request):
     return HttpResponse("<h1 style='color: green'>About</h1>")
 
-def datos(request,)
+def datos(request, username):
+    return HttpResponse("<h1 style='color: red'>Datos de: " + username + "</h1>")
 
