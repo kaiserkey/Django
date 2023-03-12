@@ -9,5 +9,5 @@ def about(request):
     return HttpResponse("<h1 style='color: green'>About</h1>")
 
 def datos(request, username):
-    return HttpResponse("<h1 style='color: red'>Datos de: " + username + "</h1>")
+    return HttpResponse("<h1 style='color: red'>Usuario: " + username + "</h1>")
 
