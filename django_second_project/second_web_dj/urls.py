@@ -21,3 +21,4 @@ urlpatterns = [
     #path('home/', include('myapp.urls'))
     path('', include('myapp.urls'))
 ]
+
