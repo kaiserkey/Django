@@ -6,7 +6,7 @@ from django.shortcuts import get_object_or_404
 # Create your views here.
 def index(request):
     title = "Welcome to the index of my blog"
-    return render(request, "index.html", {"title": title})????????/asdasdasdasd
+    return render(request, "index.html", {"title": title})
 
 
 def about(request):
