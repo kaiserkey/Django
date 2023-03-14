@@ -13,16 +13,16 @@
         <ul>
             {% for task in task %}
                 {% if task.done == False  %}
-                <br><li> ⌛  {{ task.title }}</li>
+                    <li> ⌛  {{ task.title }}</li>
                 {% else %}
                     <li> 🆗 {{ task.title }}</li>
                 {% endif %}
                     <ul>
                         <li>Project: {{ task.project.id }}</li>
                     </ul>
-                <button>✅ </button><br>
+                <button>✅ </button>
                 <button>📝 </button>
-                <button>❌ </button>
+                <button>❌ </button><br>
             {% endfor %}
         </ul>
     </body>
