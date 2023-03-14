@@ -13,7 +13,7 @@
         <ul>
             {% for task in task %}
                 <li>{{ task.title }}
-                    <li
+                    <li>{{ task.project.title }}</li>
             {% endfor %}
         </ul>
     </body>
