@@ -21,4 +21,4 @@ def project(request):
 def task(request, id):
     #tasks = Task.objects.get(id=id)
     task = get_object_or_404(Task, id=id)
-    return JsonResponse({"tasks": task.title})
+    return render(request, "task.html", {"task": task})
