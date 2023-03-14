@@ -134,7 +134,9 @@ Los siguientes son algunos de los códigos de Python más comunes que se utiliza
 
 - Funciones: Las funciones se utilizan para realizar tareas complejas. Por ejemplo, para obtener una lista de elementos únicos de una lista:
 
-{{ unique_list(names) }}
+```{{ unique_list(names) }}```
+
+
 
 ### La estructura de Carpetas Django
 
