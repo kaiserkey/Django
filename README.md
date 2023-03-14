@@ -107,6 +107,14 @@ python manage.py dbshell
 Esto abrirá una ventana de la Herramienta de administración de bases de datos de Django. Desde aquí, puedes ejecutar comandos SQL y administrar tu base de datos.
 
 ### Templates Django
+Jinja2 es un motor de plantillas para Python creado para reemplazar al motor de plantillas de Django llamado Django Template Language (DTL). Está diseñado para ser un motor de plantillas moderno y flexible, con una sintaxis limpia y una gran cantidad de características. Las plantillas de Jinja2 se encuentran entre los motores de plantillas más populares y son ampliamente utilizadas en la comunidad de desarrollo de Django.
+
+Jinja2 se utiliza para generar HTML dinámico en una aplicación de Django. Los desarrolladores pueden utilizar el lenguaje de plantillas de Jinja2 para crear plantillas HTML estáticas o dinámicas. Las plantillas dinámicas pueden contener variables, bucles, condiciones y otros elementos de programación de Python. Esto permite a los desarrolladores crear plantillas HTML dinámicas que se actualizan según los cambios en una aplicación de Django.
+
+El motor de plantillas de Jinja2 también ofrece una gran cantidad de extensiones para facilitar la creación de plantillas HTML. Estas extensiones incluyen filtros, macros, variables, funciones y otros elementos que pueden ayudar a los desarrolladores a crear plantillas HTML más limpias y eficientes. Estas extensiones también permiten a los desarrolladores escribir código HTML más corto y conciso.
+
+En resumen, Jinja2 es un motor de plantillas moderno, flexible y potente que se utiliza para generar HTML dinámico en una aplicación de Django. Ofrece una gran cantidad de características y extensiones que pueden ayudar a los desarrolladores a crear plantillas HTML dinámicas limpias, concisas y eficientes.
+
 Los templates de Django son plantillas de código HTML que se utilizan para crear la interfaz de usuario de una aplicación web. Estas plantillas se pueden completar con lógica y datos proporcionados por el lenguaje de programación Python. Esto permite a los desarrolladores proporcionar una interfaz personalizada para cada usuario.
 
 Los siguientes son algunos de los códigos de Python más comunes que se utilizan en los templates de Django:
