@@ -27,6 +27,6 @@ def task(request):
     return render(request, "task.html", {"task": tasks})
 
 def newTask(request):
-    print(request.GET['title'])
-    print(request.GET['description'])
+    if request.method == "POST":
+        
     return render(request, "newTask.html", {"form": CreateNewTask()})
