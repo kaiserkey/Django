@@ -13,11 +13,11 @@
         <ul>
             {% for task in task %}
                 {% if task.done == False  %}
-                    <p>Tarea Pendiente</p>
-                {% else %}
-                    <p>Tarea Completada</p>
-                {% endif %}
                 <li>{{ task.title }}</li>
+                {% else %}
+                <li>{{ task.title }}</li>
+                {% endif %}
+                
                     <ul>
                         <li>Project: {{ task.project.id }}</li>
                     </ul>
