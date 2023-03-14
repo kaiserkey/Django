@@ -8,5 +8,5 @@ urlpatterns = [
     path('datos/', views.datos),
     path('project/', views.project),
     path('task/', views.task),
-    
+    path()
 ]
