@@ -148,7 +148,9 @@ Los siguientes son algunos de los códigos de Python más comunes que se utiliza
     {% endmacro %}
 ```
 
+-  Filtros: Los filtros se utilizan para aplicar transformaciones a datos. Por ejemplo, para convertir una cadena de texto a mayúsculas:
 
+```{{ name | upper }}```
 
 ### La estructura de Carpetas Django
 
