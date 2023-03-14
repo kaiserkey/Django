@@ -13,7 +13,7 @@
         <ul>
             {% for task in task %}
                 {% if task.done == False  %}
-                    <li>  {{ task.title }}</li>
+                    <li> &#10004;  {{ task.title }}</li>
                 {% else %}
                     <li>{{ task.title }}</li>
                 {% endif %}
