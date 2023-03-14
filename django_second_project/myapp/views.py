@@ -28,7 +28,7 @@ def task(request):
 
 def newTask(request):
     
-    if request.method == "GET":
+    if request.method == "POST":
         title = request.GET['title']
         description = request.GET['description']
         Task.objects.create(title=title, description=description, project=Project.objects.get(id=1), done=False)
