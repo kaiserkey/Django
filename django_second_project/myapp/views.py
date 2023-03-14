@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 from .models import Project, Task
 from django.shortcuts import get_object_or_404
@@ -32,5 +32,6 @@ def newTask(request):
         title = request.POST['title']
         description = request.POST['description']
         Task.objects.create(title=title, description=description, project=Project.objects.get(id=1), done=False)
+        return redirect
     else:
         return render(request, "newTask.html", {"form": CreateNewTask()})
