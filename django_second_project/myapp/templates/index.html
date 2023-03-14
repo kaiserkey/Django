@@ -8,13 +8,7 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/project">Projects</a></li>
-                <li><a href="/task">Tasks</a></li>
-            </ul>
-        </nav>
+        {% extends 'base.html' %}
         <h1>{{title}}</h1>
         <p style="font-size: 25px;"> 
             {% lorem 3 %}
