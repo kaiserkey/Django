@@ -14,7 +14,7 @@
             {% for task in task %}
                 <li>{{ task.title }}</li>
                     <ul>
-                        <li>Project: {{ task.project }}</li>
+                        <li>Project: {{ task.project.id }}</li>
                     </ul>
             {% endfor %}
         </ul>
