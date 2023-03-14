@@ -144,7 +144,8 @@ Los siguientes son algunos de los códigos de Python más comunes que se utiliza
         <li>{{ item }}</li>
     {% endfor %}
     </ul>
-{% endmacro %}```
+{% endmacro %}
+```
 
 ### La estructura de Carpetas Django
 
