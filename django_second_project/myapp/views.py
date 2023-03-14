@@ -29,10 +29,11 @@ def task(request):
 def newTask(request):
     
     if request.method == "POST":
-        title = request.GET['title']
-        description = request.GET['description']
+        title = request.POST['title']
+        description = request.POST['description']
         Task.objects.create(title=title, description=description, project=Project.objects.get(id=1), done=False)
-        
+    else:
+      
         
         
     return render(request, "newTask.html", {"form": CreateNewTask()})
