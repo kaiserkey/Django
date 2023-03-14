@@ -31,5 +31,5 @@ def newTask(request):
     if request.method == "GET":
         title = request.get['title']
         description = request.get['description']
-        print(title, de)
+        print(title, description)
     return render(request, "newTask.html", {"form": CreateNewTask()})
