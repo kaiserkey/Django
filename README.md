@@ -68,7 +68,7 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
 
 5. Crear una aplicación Django
    Ahora, necesita crear una aplicación Django. Esto se puede hacer ejecutando el siguiente comando en la línea de comandos de Ubuntu:
-    
+    **django-admin startproject nombre_de_la_aplicación**<br>
     **django-admin startproject nombre_de_la_aplicación .**<br>
     Esta sintaxis con el punto al final indica que el proyecto Django se creará en el directorio actual. Si no se usa el punto, Django creará un directorio con el nombre especificado y luego creará el proyecto dentro de este directorio.
 
