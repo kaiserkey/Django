@@ -138,13 +138,14 @@ Los siguientes son algunos de los códigos de Python más comunes que se utiliza
 
 - Macros: Las macros se utilizan para crear fragmentos de código reutilizables. Por ejemplo, para crear una macro para mostrar una lista de elementos:
 
-```{% macro list_items(items) %}
-    <ul>
-    {% for item in items %}
-        <li>{{ item }}</li>
-    {% endfor %}
-    </ul>
-{% endmacro %}
+```
+    {% macro list_items(items) %}
+        <ul>
+        {% for item in items %}
+            <li>{{ item }}</li>
+        {% endfor %}
+        </ul>
+    {% endmacro %}
 ```
 
 ### La estructura de Carpetas Django
