@@ -14,6 +14,9 @@
             {% for task in task %}
                 {% if task.done==False  %}
                     <p>Tarea Pendiente</p>
+                {% else %}
+                    <p>Tarea Completada</p>
+                {% endif %}
                 {% endif %}
                 <li>{{ task.title }}</li>
                     <ul>
