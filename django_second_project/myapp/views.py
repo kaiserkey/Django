@@ -16,7 +16,7 @@ def datos(request, username):
 
 def project(request):
     projects = Project.objects.all()
-    return JsonResponse({"projects": list(projects.values())})
+    return render(request, "project.html", {"projects": projects})
 
 def task(request, id):
     #tasks = Task.objects.get(id=id)
