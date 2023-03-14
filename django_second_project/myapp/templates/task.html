@@ -13,10 +13,8 @@
         <ul>
             {% for task in task %}
                 {% if task.done == False  %}
-                    <br>
                     <li> ⌛  {{ task.title }}</li>
                 {% else %}
-                    <br>
                     <li> 🆗 {{ task.title }}</li>
                 {% endif %}
                     <ul>
@@ -25,6 +23,7 @@
                 <button>✅ </button>
                 <button>📝 </button>
                 <button>❌ </button>
+                <br>
             {% endfor %}
         </ul>
     </body>
