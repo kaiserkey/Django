@@ -4,7 +4,7 @@ from .models import Project, Task
 from django.shortcuts import get_object_or_404
 
 # Create your views here.
-def hello(request):
+def index(request):
     return HttpResponse("<h1 style='color: blue'>Hello World</h1>")
 
 def about(request):
