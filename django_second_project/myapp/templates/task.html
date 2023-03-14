@@ -11,8 +11,8 @@
     <body>
         <h1>Tasks</h1>
         <ul>
-            <br>
             {% for task in task %}
+            <br>
                 {% if task.done == False  %}
                     <p>Tarea Pendiente</p>
                 {% else %}
