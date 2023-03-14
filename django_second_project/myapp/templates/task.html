@@ -12,7 +12,7 @@
         <h1>Tasks</h1>
         <ul>
             {% for task in task %}
-                <
+                {% if tas  %}{% endif %}
                 <li>{{ task.title }}</li>
                     <ul>
                         <li>Project: {{ task.project.id }}</li>
