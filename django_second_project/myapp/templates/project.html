@@ -11,12 +11,14 @@
     <body>
         {% extends 'base.html' %}
         {% block  %}
-            <ul>
-                {% for project in projects %}
-                    <li>{{ project.name }}</li>
-                {% endfor %}
+            <h1>Projects</h1>
+                <ul>
+                    {% for project in projects %}
+                        <li>{{ project.name }}</li>
+                    {% endfor %}
+                </ul>
         {% endblock  %}
-        <h1>Projects</h1>
+        
         
     </body>
 </html>
