@@ -13,9 +13,10 @@
         <ul>
             {% for task in task %}
                 {% if task.done == False  %}
-                <br
+                    <br>
                     <li> ⌛  {{ task.title }}</li>
                 {% else %}
+                    <br>
                     <li> 🆗 {{ task.title }}</li>
                 {% endif %}
                     <ul>
