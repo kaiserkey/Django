@@ -5,7 +5,7 @@ from django.shortcuts import get_object_or_404
 
 # Create your views here.
 def index(request):
-    return HttpResponse("<h1 style='color: blue'>Hello World</h1>")
+    return render("index.html")
 
 def about(request):
     return HttpResponse("<h1 style='color: green'>About</h1>")
