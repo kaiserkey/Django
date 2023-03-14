@@ -33,7 +33,4 @@ def newTask(request):
         description = request.POST['description']
         Task.objects.create(title=title, description=description, project=Project.objects.get(id=1), done=False)
     else:
-      
-        
-        
-    return render(request, "newTask.html", {"form": CreateNewTask()})
+        return render(request, "newTask.html", {"form": CreateNewTask()})
