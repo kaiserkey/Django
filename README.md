@@ -131,7 +131,10 @@ Los siguientes son algunos de los códigos de Python más comunes que se utiliza
 
 - Variables: Las variables se utilizan para almacenar valores. Por ejemplo, para almacenar el nombre de un usuario en una variable:
 ```{% set user_name = 'John Doe' %}``` 
-- 
+
+- Funciones: Las funciones se utilizan para realizar tareas complejas. Por ejemplo, para obtener una lista de elementos únicos de una lista:
+
+{{ unique_list(names) }}
 
 ### La estructura de Carpetas Django
 
