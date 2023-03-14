@@ -31,7 +31,7 @@ def newTask(request):
     if request.method == "GET":
         title = request.GET['title']
         description = request.GET['description']
-        Task.objects.create(title=title, description=description, project=1)
+        Task.objects.create(title=title, description=description, project=Project.objects.get(id=1), done=False)
         
         
         
