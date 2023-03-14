@@ -8,7 +8,7 @@ def index(request):
     return render(request, "index.html")
 
 def about(request):
-    return HttpResponse("<h1 style='color: green'>About</h1>")
+    return render(request, "about.html"")
 
 def datos(request, username):
     print(username)
