@@ -26,4 +26,4 @@ def task(request):
     return render(request, "task.html", {"task": tasks})
 
 def newTask(request):
-    return render(request, "newTask.html", {"fo"})
+    return render(request, "newTask.html", {"form": form})
