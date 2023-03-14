@@ -129,6 +129,8 @@ Los siguientes son algunos de los códigos de Python más comunes que se utiliza
 
 - {% url %}: Esta etiqueta se utiliza para generar una URL a partir del nombre de una vista. Esto facilita mucho la navegación entre páginas. Por ejemplo, si se desea generar un enlace a una página de inicio, se puede usar el siguiente código: ```<a href="{% url 'home' %}"> Inicio </a>```
 
+- 
+
 
 ### La estructura de Carpetas Django
 
