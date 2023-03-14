@@ -22,4 +22,3 @@ urlpatterns = [
     path('', include('myapp.urls'))
 ]
 
-var = 11
