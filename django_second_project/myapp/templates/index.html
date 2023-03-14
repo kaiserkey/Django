@@ -9,10 +9,13 @@
     </head>
     <body>
         {% extends 'base.html' %}
-        <h1>{{title}}</h1>
-        <p style="font-size: 25px;"> 
-            {% lorem 3 %}
-        </p>
+        {% block  %}
+            <h1>{{title}}</h1>
+            <p style="font-size: 25px;"> 
+                {% lorem 3 %}
+            </p>
+        {% endblock  %}
+        
 
     </body>
 </html>
