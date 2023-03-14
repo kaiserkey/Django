@@ -12,7 +12,7 @@
         <h1>Tasks</h1>
         <ul>
             {% for task in task %}
-                {%<br>%}
+                {% print(<br> %}
                 {% if task.done == False  %}
                     <p>Tarea Pendiente</p>
                 {% else %}
