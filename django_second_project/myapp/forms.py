@@ -2,4 +2,4 @@ from django import forms
 
 class CreateNewTask():
     title = forms.CharField(label="Title", max_length=200)
-    description = forms.Textarea()
+    description = forms.Textarea(label="Description", max_length=200)
