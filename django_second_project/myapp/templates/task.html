@@ -11,22 +11,24 @@
     <body>
         {% comment %} Comentario en jinja {% endcomment %}
         {% extends 'base.html' %}
+        {% block  %}
+            <h1>Tasks</h1>
+            <ul>
+                {% for task in task %}
+                    {% if task.done == False  %}
+                        <li> ⌛  {{ task.title }}</li>
+                    {% else %}
+                        <li> 🆗 {{ task.title }}</li>
+                    {% endif %}
+                        <ul>
+                            <li>Project: {{ task.project.id }}</li>
+                        </ul>
+                    <button>✅ </button>
+                    <button>📝 </button>
+                    <button>❌ </button><br><br>
+                {% endfor %}
+            </ul>
+        {% endblock  %}
         
-        <h1>Tasks</h1>
-        <ul>
-            {% for task in task %}
-                {% if task.done == False  %}
-                    <li> ⌛  {{ task.title }}</li>
-                {% else %}
-                    <li> 🆗 {{ task.title }}</li>
-                {% endif %}
-                    <ul>
-                        <li>Project: {{ task.project.id }}</li>
-                    </ul>
-                <button>✅ </button>
-                <button>📝 </button>
-                <button>❌ </button><br><br>
-            {% endfor %}
-        </ul>
     </body>
 </html>
