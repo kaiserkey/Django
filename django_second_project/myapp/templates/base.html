@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-
+    {% block content %}{% endblock %}
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
@@ -17,4 +17,4 @@
             <li><a href="/tasks">Tasks</a></li>
         </ul>
     </nav>
-{% block conten %}{% endblock conten %}
+{% block content %}{% endblock %}
