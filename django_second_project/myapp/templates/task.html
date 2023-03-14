@@ -10,13 +10,7 @@
     </head>
     <body>
         {% comment %} Comentario en jinja {% endcomment %}
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/project">Projects</a></li>
-                <li><a href="/task">Tasks</a></li>
-            </ul>
-        </nav>
+        {% import  %}
         <h1>Tasks</h1>
         <ul>
             {% for task in task %}
