@@ -5,7 +5,7 @@ from django.shortcuts import get_object_or_404
 
 # Create your views here.
 def index(request):
-    title = 
+    title = "Welcome to the "
     return render(request, "index.html")
 
 def about(request):
