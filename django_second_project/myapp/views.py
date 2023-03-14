@@ -28,5 +28,5 @@ def task(request):
 
 def newTask(request):
     print(request.GET['title'])
-    print(request.GET['de'])
+    print(request.GET['description'])
     return render(request, "newTask.html", {"form": CreateNewTask()})
