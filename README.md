@@ -148,6 +148,8 @@ Los siguientes son algunos de los códigos de Python más comunes que se utiliza
     {% endmacro %}
 ```
 
+
+
 ### La estructura de Carpetas Django
 
 ```
