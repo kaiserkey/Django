@@ -34,4 +34,5 @@ def newTask(request):
         project = 1
         
         
+        
     return render(request, "newTask.html", {"form": CreateNewTask()})
