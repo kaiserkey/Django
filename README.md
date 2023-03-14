@@ -73,14 +73,14 @@ Django se utiliza para crear y desarrollar aplicaciones tales como blogs, sitios
 
    Django startapp es una herramienta de la línea de comandos de Django que se usa para crear una nueva aplicación de Django. Esta herramienta genera una estructura de directorios y archivos predeterminada para una aplicación de Django, que le permite comenzar a desarrollar rápidamente. Esta estructura incluye archivos como models.py, views.py, urls.py y forms.py, entre otros. Estos archivos definen la lógica de la aplicación de Django y ayudan a los desarrolladores a ahorrar tiempo y esfuerzo al comenzar un nuevo proyecto.
 
-   **python manage.py startapp nombre_de_la_app**
+   **python manage.py startapp nombre_de_la_app**<br>
 
 6. Configurar la aplicación Django
    Una vez creada la aplicación Django, necesita configurarla para que funcione correctamente. Esto se puede hacer ejecutando los siguientes comandos en la línea de comandos de Ubuntu:
 
    **python manage.py makemigrations nombre_proyecto**<br>
    **python manage.py migrate**<br>
-   **python manage.py createsuperuser**
+   **python manage.py createsuperuser**<br>
 
 7. Ejecutar la aplicación Django
    Una vez completada la configuración, puede ejecutar su aplicación Django. Esto se puede hacer ejecutando el siguiente comando en la línea de comandos de Ubuntu:
