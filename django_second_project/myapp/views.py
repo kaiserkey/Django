@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 from .models import Project, Task
 from django.shortcuts import get_object_or_404
-from .forms import CreateNewTask
+from .forms import CreateNewTask, CreateNewProject
 
 # Create your views here.
 def index(request):
