@@ -34,3 +34,12 @@ def newTask(request):
         return redirect("/task/")
     else:
         return render(request, "tasks/newTask.html", {"form": CreateNewTask()})
+    
+def newTask(request):
+    if request.method == "POST":
+        title = request.POST['title']
+        description = request.POST['description']
+        Task.objects.create(title=title, description=description, project=Project.objects.get(id=1), done=False)
+        return redirect("/task/")
+    else:
+        return render(request, "tasks/newTask.html", {"form": CreateNewTask()})
