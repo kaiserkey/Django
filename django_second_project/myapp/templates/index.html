@@ -10,10 +10,10 @@
             }
     </style>
 {% endblock %}
-    {% extends 'base.html' %}
-        {% block  content%}
-            <h1>{{title}}</h1>
-            <p style="font-size: 25px;"> 
-                {% lorem 3 %}
-            </p>
-        {% endblock  %}
+{% extends 'base.html' %}
+{% block  content%}
+    <h1>{{title}}</h1>
+    <p style="font-size: 25px;"> 
+        {% lorem 3 %}
+    </p>
+{% endblock  %}
