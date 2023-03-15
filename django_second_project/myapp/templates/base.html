@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{% if task %} Tasks
-        {% else %} Projects {% endif %}
-        </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/project">Projects</a></li>
-            <li><a href="/task">Tasks</a></li>
-            <li><a href="/new_task">New Task</a></li>
-        </ul>
-    </nav>
-{% block content %}{% endblock %}
+<html lang="en">
+<head>
+    {% block head %}
+        <link rel="stylesheet" href="style.css" />
+        <title>{% block title %}{% endblock %}</title>
+    {% endblock %}
+</head>
+<body>
+    <div id="nav">
+        {% block nav %}
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/project">Projects</a></li>
+                <li><a href="/task">Tasks</a></li>
+                <li><a href="/new_task">New Task</a></li>
+            </ul>
+        {% endblock %}
+    </div>
+    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+        {% block footer %}
+            &copy; Copyright 2023 by <a href="#">DanielSan</a>
+        {% endblock %}
+    </div>
+</body>
+</html>

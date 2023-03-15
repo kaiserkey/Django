@@ -1,20 +1,30 @@
-
-        {% extends 'base.html' %}
-        {% block content %}
-            <h1>Tasks</h1>
-            <ul>
-                {% for task in task %}
-                    {% if task.done == False  %}
-                        <li> ⌛  {{ task.title }}</li>
-                    {% else %}
-                        <li> 🆗 {{ task.title }}</li>
-                    {% endif %}
-                        <ul>
-                            <li>Project: {{ task.project.id }}</li>
-                        </ul>
-                    <button>✅ </button>
-                    <button>📝 </button>
-                    <button>❌ </button><br><br>
-                {% endfor %}
-            </ul>
-        {% endblock  %}
+{% extends 'base.html' %}
+{% block title %}Tasks{% endblock %}
+{% block head %}
+    <style type="text/css">
+        * { background-color: #eab676; 
+            color: black; 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            }
+    </style>
+{% endblock %}
+{% block content %}
+    <h1>Tasks</h1>
+    <ul>
+        {% for task in task %}
+            {% if task.done == False  %}
+                <li> ⌛  {{ task.title }}</li>
+            {% else %}
+                <li> 🆗 {{ task.title }}</li>
+            {% endif %}
+                <ul>
+                    <li>Project: {{ task.project.id }}</li>
+                </ul>
+            <button>✅ </button>
+            <button>📝 </button>
+            <button>❌ </button><br><br>
+        {% endfor %}
+    </ul>
+{% endblock  %}
