@@ -10,10 +10,10 @@
     <div id="nav">
         {% block nav %}
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/project">Projects</a></li>
-                <li><a href="/task">Tasks</a></li>
-                <li><a href="/new_task">New Task</a></li>
+                <li><a href="{% url 'create_project' %}">Home</a></li>
+                <li><a href="{% url 'create_project' %}">Projects</a></li>
+                <li><a href="{% url 'create_project' %}">Tasks</a></li>
+                <li><a href="{% url 'create_project' %}">New Task</a></li>
                 <li><a href="{% url 'create_project' %}">New Project</a></li>
             </ul>
         {% endblock %}
