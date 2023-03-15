@@ -42,4 +42,4 @@ def newProject(request):
         Task.objects.create(title=title, description=description, project=Project.objects.get(id=1), done=False)
         return redirect("/project/")
     else:
-        return render(request, "tasks/newTask.html", {"form": CreateNewTask()})
+        return render(request, "projects/n.html", {"form": CreateNewTask()})
