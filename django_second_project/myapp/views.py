@@ -19,7 +19,7 @@ def datos(request, username):
 
 def project(request):
     projects = Project.objects.all()
-    return render(request, "tasks/project.html", {"projects": projects})
+    return render(request, "projects/project.html", {"projects": projects})
 
 def task(request):
     tasks = Task.objects.all()
