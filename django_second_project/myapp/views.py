@@ -35,7 +35,7 @@ def newTask(request):
     else:
         return render(request, "tasks/newTask.html", {"form": CreateNewTask()})
     
-def newTask(request):
+def newProject(request):
     if request.method == "POST":
         title = request.POST['title']
         description = request.POST['description']
