@@ -31,7 +31,7 @@ def newTask(request):
         title = request.POST['title']
         description = request.POST['description']
         Task.objects.create(title=title, description=description, project=Project.objects.get(id=1), done=False)
-        return redirect("/task/")
+        return redirect("task")
     else:
         return render(request, "tasks/newTask.html", {"form": CreateNewTask()})
     
