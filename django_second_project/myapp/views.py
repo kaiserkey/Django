@@ -38,7 +38,7 @@ def newTask(request):
 def newProject(request):
     if request.method == "POST":
         name = request.POST['name']
-        Project.objects.
+        Project.objects.create(name=name)
         return redirect("/project/")
     else:
         return render(request, "projects/newProject.html", {"form": CreateNewProject()})
